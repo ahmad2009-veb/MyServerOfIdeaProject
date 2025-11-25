@@ -55,7 +55,9 @@ const createCrudRoutes = (name) => {
 };
 
 // Қисмҳоро илова кунем
-["Login", "Sigup", "messageDB", "courses"].forEach(createCrudRoutes);
+["data", "Login", "Sigup", "messageDB", "courses", "testAfterVideo"].forEach(
+  createCrudRoutes
+);
 
 // ROUTE асосӣ
 app.get("/", (req, res) => {
